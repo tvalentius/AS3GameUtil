@@ -30,7 +30,7 @@
 		 * @param	mainClass: the DocumentClass
 		 * @param	container: the container of the screen
 		 */
-		public function init(_documentClass:Sprite , _container:DisplayObjectContainer)
+		public function init(_documentClass:Sprite , _container:DisplayObjectContainer):void
 		{
 			if (!_initiated) {
 				_screenDict = new Dictionary(true);
@@ -109,7 +109,7 @@
 		 * Remove current active screen
 		 * @param	screenName: name identifier of the screen
 		 */
-		public function removeScreen(_screenName:String)
+		public function removeScreen(_screenName:String):void
 		{
 			var scrnObj:Object = _screenDict[_screenName];
 			_view.removeChild(scrnObj.screen);
