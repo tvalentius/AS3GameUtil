@@ -1,4 +1,4 @@
-﻿package com.tvalentius.manager 
+﻿package com.tvalentius.managers 
 {
 	import flash.display.DisplayObjectContainer;
 	import flash.display.Sprite;
@@ -6,8 +6,8 @@
 	import flash.utils.Dictionary;
 	/**
 	 * Singleton for managing screen
-	 * @author Trimikha Valentius(Chocorobokun)
-	 * 
+	 * @author Trimikha Valentius(tvalentius@gmail.com)
+	 * @version 1.3
 	 */
 	public class ScreenManager
 	{	
