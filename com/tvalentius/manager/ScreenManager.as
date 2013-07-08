@@ -1,4 +1,4 @@
-﻿package com.chocorobokun.manager 
+﻿package com.tvalentius.manager 
 {
 	import flash.display.DisplayObjectContainer;
 	import flash.display.Sprite;
